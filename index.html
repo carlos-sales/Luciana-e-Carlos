@@ -2,23 +2,27 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luciana & Carlos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/heart.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Italianno&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <div class="container">
         <div class="title">
-            <h1 class="italianno-regular">
-                Luciana <br />
-                <span>&</span> <br />
-                Carlos 
-            </h1>
+            <img src="img/logo.png" alt="Luciana & Carlos" onclick="goTo('menu.html')">
+            <h1 class="italianno-regular">Guia dos Convidados</h1>
         </div>
+        <div id="content"></div>
+        <!-- https://www.google.com/maps/dir/?api=1&destination=Inove+Muriae -->
     </div>
+    <div class="footer">
+        <img src="img/monograma.png" alt="Monograma">
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
