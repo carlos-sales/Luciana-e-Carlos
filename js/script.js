@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", 
     function()
     {
-        goTo('menu.html')
+        goTo('menu.html');
     }
 );
 

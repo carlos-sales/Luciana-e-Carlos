@@ -2,6 +2,7 @@
 {
     --background-color: #FCFAF2;
     --primary-color: #894209;
+    --accent-color: #6F6C51;
     --text-color: #FCFAF2;
 }
 *
@@ -28,7 +29,6 @@ body
 .title
 {
     color: var(--primary-color);
-    margin: 20px 0;
     text-align: center;
 }
 .title img
@@ -59,26 +59,57 @@ h1
     display: contents;
     width: 100%;
 }
+a
+{
+    color: var(--text-color);
+    text-decoration: none;
+    background-color: var(--primary-color);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: rgb(0, 0, 0) 4px 4px 0px 0px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
 .button
 {
     width: 450px;
 }
 .button a
 {
-    display: block;
-    color: var(--text-color);
-    text-decoration: none;
     font-size: 14pt;
     height: 45px;
-    background-color: var(--primary-color);
-    border: 2px solid rgb(0, 0, 0);
-    box-shadow: rgb(0, 0, 0) 4px 4px 0px 0px;
-    border-radius: 4px;
     margin-bottom: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+}
+.list
+{
+    text-align: center;
+}
+.list-item-image img
+{
+    border-radius: 50%;
+    height: 150px;
+    object-fit: cover;
+}
+.list-item-button
+{
+    width: 120px;
+}
+.list-item-buttons a
+{
+    font-size: 14pt;
+    height: 45px;
+    width: 120px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    margin: 1rem;
+}
+hr
+{
+    margin: 1.5rem;
+    width: 100%;
+    color: var(--accent-color);
 }
 .footer
 {
@@ -92,6 +123,7 @@ h1
 .footer img
 {
     width: 35px;
+    opacity: 0.3;
 }
 @media (min-width: 1200px)
 {
